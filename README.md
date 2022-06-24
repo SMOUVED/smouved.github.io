@@ -1,2 +1,0 @@
-# smouved.github.io
-Website
