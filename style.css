@@ -163,111 +163,6 @@ nav.hidden {
     transform: translateX(-100%);
 }
 
-/* Profile Cards */
-.container {
-    height: 100vh;
-    width: 100vw;
-    max-height: 800px;
-    max-width: 1280px;
-    min-height: 600px;
-    min-width: 1000px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-}
-.border {
-    height: 369px;
-    width: 290px;
-    background: transparent;
-    border-radius: 10px;
-    transition: border 1s;
-    position: relative;
-}
-.border:hover {
-    border: 1px solid #fff;
-}
-.card {
-    height: 379px;
-    width: 300px;
-    background: #808080;
-    border-radius: 10px;
-    transition: background 0.8s;
-    overflow: hidden;
-    background: #000;
-    box-shadow: 0 70px 63px -60px #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-.card0 {
-    background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
-    background-size: 300px;
-}
-.card0:hover {
-    background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
-    background-size: 600px;
-}
-.card0:hover h2 {
-    opacity: 1;
-}
-.card0:hover .fa {
-    opacity: 1;
-}
-.card1 {
-    background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg") center center no-repeat;
-    background-size: 300px;
-}
-.card1:hover {
-    background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg") left center no-repeat;
-    background-size: 600px;
-}
-.card1:hover h2 {
-    opacity: 1;
-}
-.card1:hover .fa {
-    opacity: 1;
-}
-.card2 {
-    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") center center no-repeat;
-    background-size: 300px;
-}
-.card2:hover {
-    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") left center no-repeat;
-    background-size: 600px;
-}
-.card2:hover h2 {
-    opacity: 1;
-}
-.card2:hover .fa {
-    opacity: 1;
-}
-h2 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #fff;
-    margin: 20px;
-    opacity: 0;
-    transition: opacity 1s;
-}
-.fa {
-    opacity: 0;
-    transition: opacity 1s;
-}
-.icons {
-    position: absolute;
-    fill: #fff;
-    color: #fff;
-    height: 130px;
-    top: 226px;
-    width: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-
 /* Footer */
 
 ul {
@@ -498,9 +393,9 @@ footer {
 
 
 .gallery-container {
-    padding: 75px 0;
+    padding: 10px 0;
     margin: 0 auto;
-    width: 1400px;
+    width: 1900px;
 }
 
 
@@ -524,23 +419,23 @@ footer {
 }
 
 .item-1 {
-    background-image: url("https://images.unsplash.com/photo-1499198116522-4a6235013d63?auto=format&fit=crop&w=1233&q=80");
+    background-image: url("/img/escooter.jpg");
 }
 
 .item-2 {
-    background-image: url("https://images.unsplash.com/photo-1492760864391-753aaae87234?auto=format&fit=crop&w=1336&q=80");
+    background-image: url("/img/bus.jpg");
 }
 
 .item-3 {
-    background-image: url("https://images.unsplash.com/photo-1503631285924-e1544dce8b28?auto=format&fit=crop&w=1234&q=80");
+    background-image: url("/img/werbung_sbahn.jpg");
 }
 
 .item-4 {
-    background-image: url("https://images.unsplash.com/photo-1510425463958-dcced28da480?auto=format&fit=crop&w=1352&q=80");
+    background-image: url("/img/warte.jpg");
 }
 
 .item-5 {
-    background-image: url("https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1234&q=80");
+    background-image: url("/img/werbung_ubahn.jpg");
 }
 
 
@@ -817,6 +712,97 @@ footer {
     .direction-l .desc,
     .direction-r .desc {
         margin: 1em 4em 0 4em;
+    }
+
+}
+
+
+/* Cards */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center	;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px; height: 400px;
+    margin: 15px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%; height: 100%;
+    object-fit: cover;
+    transition: all 0.3s;
+}
+
+.details{
+    position: absolute;
+    bottom: 0; left: 0;
+    background-color: #212E52;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 10px;
+    transform: translateY(100%);
+    transition: all 0.3s;
+}
+
+.details h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.details a{
+    display: inline-block;
+    margin-left: 20px;
+    color: #fff;
+    transform: translateY(50px);
+    transition: all 0.3s;
+}
+
+.details a:first-child{
+    transition-delay: 0.1s;
+}
+
+.details a:nth-child(2){
+    transition-delay: 0.2s;
+}
+
+.details a:last-child{
+    transition-delay: 0.3s;
+}
+
+.card:hover img{
+    transform: scale(1.2);
+}
+
+.card:hover .details, .card:hover .details a{
+    transform: none;
+}
+
+@media (max-width:360px){
+
+    .card{
+        width: auto;
+        flex-basis: 100%;
+    }
+
+    .details h2, .details a{
+        font-size: 14px;
     }
 
 }
