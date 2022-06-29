@@ -1,243 +1,540 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+    <head>
+        <title>Smouved</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="images/favicon.png">
 
-    <meta charset="UTF-8">
-    <title>Smouved</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/f58ef71fd3.js" crossorigin="anonymous"></script>
-
-</head>
-<body>
-<section id="intro" class="page">
-    <div id="intro-title">
-        <img style="max-width: 500px" src="img/logo_typo_seitlich.png">
-    </div>
-    <div id="intro-description">
-        Wir gestalten die Fortbewegung in Eurem alltäglichen Leben innovativer.
-    </div>
+        <!--Bootsrap styles-->
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <!--plugin css-->
+        <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+        <link rel="stylesheet" href="css/magnific-popup.css"/>
 
 
+        <!--custom css-->
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/responsive.css"/>
 
-</section>
-
-<nav>
-    <a class="menu-btn">
-        <svg t="1583388234559" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2279" width="16" height="16"><path d="M128 213.34016l768 0q17.67424 0 30.16704 12.4928t12.4928 30.16704-12.4928 30.16704-30.16704 12.4928l-768 0q-17.67424 0-30.16704-12.4928t-12.4928-30.16704 12.4928-30.16704 30.16704-12.4928zM128 725.34016l768 0q17.67424 0 30.16704 12.4928t12.4928 30.16704-12.4928 30.16704-30.16704 12.4928l-768 0q-17.67424 0-30.16704-12.4928t-12.4928-30.16704 12.4928-30.16704 30.16704-12.4928zM128 469.34016l768 0q17.67424 0 30.16704 12.4928t12.4928 30.16704-12.4928 30.16704-30.16704 12.4928l-768 0q-17.67424 0-30.16704-12.4928t-12.4928-30.16704 12.4928-30.16704 30.16704-12.4928z" p-id="2280" fill="#40403F"></path></svg>
-    </a>
-    <a class="tab placeholder"></a>
-    <a class="tab" data-text="Video" href="#video">Video</a>
-    <a class="tab" data-text="Das Team" href="#team">Das Team</a>
-    <a class="tab" data-text="Bilder" href="#bilder">Bilder</a>
-    <a class="tab" data-text="Unser Plan" href="#plan">Unser Plan</a>
-    <a class="tab" data-text="Unsere Geschichte" href="#geschichte">Unsere Geschichte</a>
-   <!-- <a class="tab" data-text="LOGIN / SIGN UP" id="user-btn">LOGIN / SIGN UP</a> -->
-</nav>
-<a name="video"></a>
-<section name="Video" class="page content-page">
-    <h1>Wer sind wir?</h1>
-    <video width="auto" height="720px" muted autoplay loop> <!-- muted loop-->
-        <source src="img/intro.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
-</section>
-
-<section></section>
-<a name="team"></a>
-<p></p>
-<section name="Das Team" class="page content-page">
-<h1>Das Team</h1>
-    <p>Wir sind ein Team aus 6 Studierenden aus ganz Deutschland.</p>
-    <p>Unser Ziel ist es, die Fortbewebung in Deinem alltäglichen Leben innovativer zu gestalten.</p>
-    <p>Wir möchten uns deshalb kurz vorstellen:</p>
-
-
-    <div class="container">
-        <div class="card">
-            <img src="https://images.pexels.com/photos/4814633/pexels-photo-4814633.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="">
-            <div class="details">
-                <h2>gwen smith</h2>
-                <div class="social-media-list">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://images.pexels.com/photos/4691101/pexels-photo-4691101.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-            <div class="details">
-                <h2>julia brown</h2>
-                <div class="social-media-list">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://images.pexels.com/photos/3826411/pexels-photo-3826411.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-            <div class="details">
-                <h2>jaden white</h2>
-                <div class="social-media-list">
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://images.pexels.com/photos/4814633/pexels-photo-4814633.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="">
-            <div class="details">
-                <h2>gwen smith</h2>
-                <div class="social-media-list">
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://images.pexels.com/photos/4691101/pexels-photo-4691101.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-            <div class="details">
-                <h2>julia brown</h2>
-                <div class="social-media-list">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://images.pexels.com/photos/3826411/pexels-photo-3826411.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-            <div class="details">
-                <h2>jaden white</h2>
-                <div class="social-media-list">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<section></section>
-<a name="bilder"></a>
-<p></p>
-<section name="Bilder" class="page content-page">
-    <h1>Bilder</h1>
-    <div class="gallery-container">
-        <div class="gallery-wrap">
-            <div class="item item-1"></div>
-            <div class="item item-2"></div>
-            <div class="item item-3"></div>
-            <div class="item item-4"></div>
-            <div class="item item-5"></div>
-        </div>
-    </div>
-    </div>
-
-    <p></p>
-</section>
-<section></section>
-<a name="plan"></a>
-<p></p>
-<section name="Unser Plan" class="page content-page">
-
-    <h1>Unser Plan</h1>
-
-        <ul class="timeline">
-            <!-- Item 1 -->
-            <li>
-                <div class="direction-r">
-                    <div class="flag-wrapper">
-                        <span class="flag">Entwicklung</span>
-                        <span class="time-wrapper"><span class="time">~2023</span></span>
+        <!--script-->
+        <script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="js/hoverline.js" type="text/javascript"></script>
+        <script src="js/jquery.countTo.js" type="text/javascript"></script>
+        <script src="js/shuffle.min.js" type="text/javascript"></script>
+        <script src="js/shuffle.custom.js" type="text/javascript"></script>
+        <script src="js/magnific-popup.js" type="text/javascript"></script>
+        <script src="js/custom.js" type="text/javascript"></script>
+    </head>
+    <body class="home page-template page-template-home dark-menu">
+        <div id="tv-page-wrapper">
+            <header class="fixed-top style1 light">
+                <div class="container">
+                    <div class="tv-header-menu-wrap">
+                        <div class="navbar-header">
+                            <a class="navbar-brand nav-to" href="index.html">
+                                <img class="logo_normal notalone" style="position: relative; height: 50px; width: auto" src="images/logo_typo_seitlich.png" alt="logo" title="">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+                                <span class="ti-menu"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-default">
+                            <nav class="tv-main-menu navbar navbar-expand-md navbar-light" >
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav tv-reset-navbar">
+                                        <li class="nav-item active"><a class="page-scroll" href="#slider">Home</a></li>
+                                        <li class="nav-item"><a class="page-scroll" href="#about">Über Uns</a></li>
+                                        <li class="nav-item"><a class="page-scroll" href="#portfolio">Bilder</a></li>
+                                        <!--<li class="nav-item"><a class="page-scroll" href="#contact">Kontakt</a></li> -->
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
                     </div>
-                    <div class="desc">Wir starten durch mit unserer Plattform</div>
                 </div>
-            </li>
+            </header>
 
-            <!-- Item 2 -->
-            <li>
-                <div class="direction-l">
-                    <div class="flag-wrapper">
-                        <span class="flag">Testphase</span>
-                        <span class="time-wrapper"><span class="time">2023-2024</span></span>
-                    </div>
-                    <div class="desc">Nutzer werden generiert durch Pilotprojekte in verschiedenen Städten</div>
+            <!---------------------Middle class------------------------------->
+            <main class="middle-content">
+                <!-----------------Slider---------------------------------------->
+                <section  class="section-top-padd-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-11 mx-auto">
+                        <video width="100%" height="auto" muted autoplay loop> <!-- muted loop-->
+                            <source src="images/video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                 </div>
-            </li>
-
-            <!-- Item 3 -->
-            <li>
-                <div class="direction-r">
-                    <div class="flag-wrapper">
-                        <span class="flag">Die Plattform</span>
-                        <span class="time-wrapper"><span class="time">~2025</span></span>
                     </div>
-                    <div class="desc">Wir haben unsere Platform komplett fertig gestellt und haben viele Nutzer</div>
-            </li>
-
-        </ul>
+                </div>
+                </section>
 
 
-</section>
-<section></section>
-
-<a name="geschichte"></a>
-<p></p>
-<section name="Geschichte" class="page content-page">
-        <h1>Unsere Geschichte</h1>
-        <p>... wieso haben wir so viel Lust, diese Plattform zu gestalten</p>
-</section>
-
-</body>
-<footer class="flex-rw">
-
-   <!-- <ul class="footer-list-top">
-        <li>
-            <h4 class="footer-list-header">About Pavilion</h4></li>
-        <li><a href='/shop/about-mission' class="generic-anchor footer-list-anchor" itemprop="significantLink">GET TO KNOW US</a></li>
-        <li><a href='/promos.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">PROMOS</a></li>
-        <li><a href='/retailers/new-retailers.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">BECOME A RETAILER</a></li>
-
-        <li><a href='/job-openings.html' itemprop="significantLink" class="generic-anchor footer-list-anchor">JOB OPENINGS</a></li>
-
-        <li><a href='/shop/about-show-schedule' class="generic-anchor footer-list-anchor" itemprop="significantLink">EVENTS</a></li>
-    </ul>
-    <ul class="footer-list-top">
-        <li>
-            <h4 class="footer-list-header">The Gift Selection</h4></li>
+                <!-----------------End------------------------------------------->
 
 
-        <li><a href='/Angels/cat/id/70' class="generic-anchor footer-list-anchor">ANGEL FIGURINES</a></li>
-        <li><a href='/Home-Decor/cat/id/64' class="generic-anchor footer-list-anchor">HOME DECOR</a></li>
-        <li><a href='/Mugs/cat/id/32' class="generic-anchor footer-list-anchor">MUGS</a></li>
-        <li><a href='/Pet-Lover/cat/id/108' class="generic-anchor footer-list-anchor">PET LOVER</a></li>
-        <li><a href='/Ladies-Accessories/cat/id/117' class="generic-anchor footer-list-anchor" target="_blank">HANDBAGS & JEWELRY</a></li>
-    </ul>
-    <ul class="footer-list-top">
-        <li id='help'>
-            <h4 class="footer-list-header">Please Help Me</h4></li>
-        <li><a href='/shop/about-contact' class="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT</a></li>
-        <li><a href='/faq.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
-        <li id='find-a-store'><a href='/shop/store-locator' class="generic-anchor footer-list-anchor" itemprop="significantLink">STORE LOCATOR</a></li>
-        <li id='user-registration'><a href='/shop/user-registration?URL=' class="generic-anchor footer-list-anchor" itemprop="significantLink">NEW USERS</a></li>
-        <li id='order-tracking'><a href='/shop/order-status' itemprop="significantLink" class="generic-anchor footer-list-anchor">ORDER STATUS</a></li>
-    </ul>
-    -->
-    <section class="footer-bottom-section flex-rw">
-        <div class="footer-bottom-wrapper">
-            <i class="fa fa-copyright" role="copyright">
+                <!-----------------About------------------------------------------->
+                <section id="about" class="about-section section-top-padd-100">
+                    <div class="container">
+                        <div class="tv-section-heading-box text-center">
+                            <div class="tv-heading-spacer">
+                                <span class="tv-heading-line tv-heading-line-light-orange"></span>
+                            </div>
+                            <h6 class="tv-section-head-slogan">Wir sind Smouved</h6>
+                            <h2 class="tv-section-head-title">Über uns</h2>
+                        </div>
 
-            </i> 2022 Copyright by Smouved<span class="footer-bottom-rights"> - All Rights Reserved - </span>
+                        <div class="about-content">
+                            <div class="about-info text-center">
+                                <div class="row">
+                                    <div class="col-lg-9 col-md-11 mx-auto">
+                                        <p>Wir sind ein Team von 6 Studierenden aus ganz Deutschland. Wir haben uns das Ziel gesetzt, Mobilität in Deinem alltäglichen Leben innovativer zu gestalten.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <figure class="image-figure text-center">
+                                <div class="tv-single-image">
+                                    <img src="images/Team-Bild.png" class="tv-grayscale">
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </section>
+                <!-----------------End--------------------------------------------->
+
+                <!-----------------Service------------------------------------------->
+               <!-- <section id="service" class="service-section section-tb-padd-100" style="background: #202020">
+                    <div class="container">
+                        <div class="tv-section-heading-box text-center">
+                            <div class="tv-heading-spacer">
+                                <span class="tv-heading-line"></span>
+                            </div>
+                            <h6 class="tv-section-head-slogan text-blue">Providing services</h6>
+                            <h2 class="tv-section-head-title text-blue">SERVICES</h2>
+
+                        </div>
+                        <div class="row tv-service-section-row">
+                            <div class="col-xl-4 col-md-6 tv-sm-center">
+                                <article class="tv-icon-box">
+                                    <div class="tv-box-top">
+                                        <div class="tv-box-icon"><span class="ti-user"></span></div>
+                                        <div class="tv-box-header">
+                                            <h5><a href="#">Maecenas pharetra</a></h5>
+                                        </div>
+                                    </div>
+                                    <div class="tv-divider"></div>
+                                    <div class="tv-box-body">
+                                        <p>Sed pretium dui ut commodo consequat. Nulla sodales tincidunt ipsum, at imperdiet ipsum</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-xl-4 col-md-6 tv-sm-center">
+                                <article class="tv-icon-box">
+                                    <div class="tv-box-top">
+                                        <div class="tv-box-icon"><span class="ti-crown"></span></div>
+                                        <div class="tv-box-header">
+                                            <h5><a href="#">Sed elementum</a></h5>
+                                        </div>
+                                    </div>
+                                    <div class="tv-divider"></div>
+                                    <div class="tv-box-body">
+                                        <p>Sed pretium dui ut commodo consequat. Nulla sodales tincidunt ipsum, at imperdiet ipsum</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-xl-4 col-md-6 tv-sm-center">
+                                <article class="tv-icon-box">
+                                    <div class="tv-box-top">
+                                        <div class="tv-box-icon"><span class="ti-anchor"></span></div>
+                                        <div class="tv-box-header">
+                                            <h5><a href="#">Maecenas pharetra</a></h5>
+                                        </div>
+                                    </div>
+                                    <div class="tv-divider"></div>
+                                    <div class="tv-box-body">
+                                        <p>Sed pretium dui ut commodo consequat. Nulla sodales tincidunt ipsum, at imperdiet ipsum</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-xl-4 col-md-6 tv-sm-center">
+                                <article class="tv-icon-box">
+                                    <div class="tv-box-top">
+                                        <div class="tv-box-icon"><span class="ti-vector"></span></div>
+                                        <div class="tv-box-header">
+                                            <h5><a href="#">Maecenas pharetra</a></h5>
+                                        </div>
+                                    </div>
+                                    <div class="tv-divider"></div>
+                                    <div class="tv-box-body">
+                                        <p>Sed pretium dui ut commodo consequat. Nulla sodales tincidunt ipsum, at imperdiet ipsum</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-xl-4 col-md-6 tv-sm-center">
+                                <article class="tv-icon-box">
+                                    <div class="tv-box-top">
+                                        <div class="tv-box-icon"><span class="ti-desktop"></span></div>
+                                        <div class="tv-box-header">
+                                            <h5><a href="#">Sed elementum</a></h5>
+                                        </div>
+                                    </div>
+                                    <div class="tv-divider"></div>
+                                    <div class="tv-box-body">
+                                        <p>Sed pretium dui ut commodo consequat. Nulla sodales tincidunt ipsum, at imperdiet ipsum</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-xl-4 col-md-6 tv-sm-center">
+                                <article class="tv-icon-box">
+                                    <div class="tv-box-top">
+                                        <div class="tv-box-icon"><span class="ti-ruler-pencil"></span></div>
+                                        <div class="tv-box-header">
+                                            <h5><a href="#">Maecenas pharetra</a></h5>
+                                        </div>
+                                    </div>
+                                    <div class="tv-divider"></div>
+                                    <div class="tv-box-body">
+                                        <p>Sed pretium dui ut commodo consequat. Nulla sodales tincidunt ipsum, at imperdiet ipsum</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+                <!-----------------End------------------------------------------->
+
+                <section class="tv-counter">
+                    <div class="section-tb-padd-50 tv-bg-white">
+                        <div class="container tv-position-relative">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-12 text-center tv-light-text tv-counter-section">
+                                    <span class="counter" data-from="0" data-to="200" data-speed="5000"></span>
+                                    <h5 class="tv-counter-title tv-light-white-text">Seeds</h5>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-12 text-center tv-light-text tv-counter-section">
+                                    <span class="counter" data-from="0" data-to="36" data-speed="5000"></span>
+                                    <h5 class="tv-counter-title tv-light-white-text">Mobilitätsseeds</h5>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-12 text-center tv-light-text tv-counter-section">
+                                    <span class="counter" data-from="0" data-to="140" data-speed="5000"></span>
+                                    <h5 class="tv-counter-title tv-light-white-text">Menschen überzeugt</h5>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-12 text-center tv-light-text tv-counter-section">
+                                    <span class="counter" data-from="0" data-to="120" data-speed="5000"></span>
+                                    <h5 class="tv-counter-title tv-light-white-text">Wir geben ... %</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        $('.counter').each(count);
+                        function count(options) {
+                            var $this = $(this);
+                            options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+                            $this.countTo(options);
+                        }
+                    </script>
+                </section>
+
+                <!--Feature-->
+               <section id="feature" class="feature-section section-tb-padd-100">
+                    <div class="container">
+                        <div class="row feature-wrapper align-items-center">
+                            <div class="col-md-6">
+                                <div class="feature-list-wrapper text-right">
+                                    <div class="tv-border" style="height: 100%;"></div>
+                                    <h3 data-text="New Animation Engine">Unsere Geschichte</h3>
+                                    <!--<h4>ohne viel Text</h4>
+                                    <h5></h5>-->
+                                    <ul>
+                                        <li>Im Zuge von Digital Seeds,</li>
+                                        <li>haben wir uns als Team kennen gelernt.</li>
+                                        <li>Neben vielen spanneden anderen Themen,</li>
+                                        <li>haben wir uns dazu entschieden,</li>
+                                        <li>ein alltägliches Problem zu lösen.</li>
+                                        <li>Eines, von dem wir alle betroffen waren:</li>
+                                        <li>Effizient nach seiner persönlichen Vorstellung</li>
+                                        <li>durch das alltägliche Leben kommen.</li>
+                                        <li>Diese Problem wollen wir nun gemeinsam lösen</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="tv-single-image">
+                                    <img src="images/instagram.jpg" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--End-->
+
+                <!--CTA-->
+                <section class="cta">
+                    <div class="clearfix tv-bg-orange">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-10 mx-auto">
+                                    <div class="tv-cta-holder text-white section-tb-padd-50">
+                                        <div class="display-table center-col">
+                                            <div class="display-table-cell vertical-align-middle">
+                                                <i class="icon-toolbox tv-font-40 tv-white-text tv-xs-offspace-right-10"></i>
+                                            </div>
+                                            <div class="display-table-cell vertical-align-middle tv-padd-l-10">
+                                                <span class="display-text-1">Möchtest Du uns etwas mitteilen?</span>
+                                            </div>
+                                        </div>
+                                        <a href="mailto:hello@smouved.de" class="btn btn-cust btn-white tv-offspace-botttom-00">Kontaktiere uns</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--End-->
+
+                <!--Portfolio-->
+                <section id="portfolio" class="portfolio-section tv-grid-4col section-top-padd-100">
+                    <div class="container">
+                        <div class="tv-section-heading-box text-center">
+                            <div class="tv-heading-spacer">
+                                <span class="tv-heading-line tv-heading-line-light-orange"></span>
+                            </div>
+                            <h6 class="tv-section-head-slogan">Impressionen aus der realen Welt</h6>
+                            <h2 class="tv-section-head-title">Galerie</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="tv-filter-wrapper col-md-12">
+                            <div class="portfolio-filter filter-options text-center" id="port-filter">
+                                <button class="active" data-group="all">all</button>
+                               <!-- <button data-group="web">web design</button>
+                                <button data-group="uiux">UI &amp; UX</button>
+                                <button data-group="branding">branding</button>
+                                <button data-group="photography">photography</button> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="tv-grid-gallery tv-offspace-top-20">
+                        <ul id="grid" class="row  tv-offspace-50 portfolio-grid">
+                            <li class="item photography uiux branding grid-item  col-lg-3 col-md-4 col-sm-6 col-xs-12 tv-grid-gutter-00" data-groups='["photography","uiux","branding"]'>
+                                <figure>
+                                    <div class="tv-gallery-img">
+                                        <a href="images/bus.jpg" data-image-popup=""><img src="images/bus.jpg" alt="portfolio-image"></a></div>
+                                    <figcaption>
+                                        <h3><a href="">Busse sind lösen das innerstädtische Mobilitätsproblem</a></h3>
+                                        <p class="tv-light-white-text tv-letter-spacing-1">ein Bus ersetzt 20 Autos</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li class="item photography web branding grid-item  col-lg-3 col-md-4 col-sm-6 col-xs-12 tv-grid-gutter-00" data-groups='["photography","web","branding"]'>
+                                <figure>
+                                    <div class="tv-gallery-img">
+                                        <a href="images/escooter.jpg" data-image-popup=""><img src="images/escooter.jpg" alt="portfolio-image"></a></div>
+                                    <figcaption>
+                                        <h3><a href="">bequem durch die Stadt</a></h3>
+                                        <p class="tv-light-white-text tv-letter-spacing-1">perfekt für kurze Strecken</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                           <!-- <li class="item photography web branding grid-item  col-lg-3 col-md-4 col-sm-6 col-xs-12 tv-grid-gutter-00" data-groups='["photography","web","branding"]'>
+                                <figure>
+                                    <div class="tv-gallery-img">
+                                        <a href="images/instagram.jpg" data-image-popup=""><img src="images/instagram.jpg" alt="portfolio-image"></a></div>
+                                    <figcaption>
+                                        <h3><a href="">schon unser Instagram gesehen?</a></h3>
+                                        <p class="tv-light-white-text tv-letter-spacing-1">Smouved</p>
+                                    </figcaption>
+                                </figure>
+                            </li>-->
+                            <li class="item branding web photography grid-item  col-lg-3 col-md-4 col-sm-6 col-xs-12 tv-grid-gutter-00" data-groups='["branding","web","photography"]'>
+                                <figure>
+                                    <div class="tv-gallery-img">
+                                        <a href="images/warte.jpg" data-image-popup=""><img src="images/warte.jpg" alt="portfolio-image"></a></div>
+                                    <figcaption>
+                                        <h3><a href="">Mal wieder den Bus verpasst?</a></h3>
+                                        <p class="tv-light-white-text tv-letter-spacing-1">nicht mit Smouved</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li class="item uiux photography grid-item  col-lg-3 col-md-4 col-sm-6 col-xs-12 tv-grid-gutter-00" data-groups='["uiux","photography"]'>
+                                <figure>
+                                    <div class="tv-gallery-img">
+                                        <a href="images/werbung_sbahn.jpg" data-image-popup=""><img src="images/werbung_sbahn.jpg" alt="portfolio-image"></a></div>
+                                    <figcaption>
+                                        <h3><a href="">Werbung</a></h3>
+                                        <p class="tv-light-white-text tv-letter-spacing-1">effizient durch die Stadt</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li class="item uiux web grid-item  col-lg-3 col-md-4 col-sm-6 col-xs-12 tv-grid-gutter-00" data-groups='["uiux","web"]'>
+                                <figure>
+                                    <div class="tv-gallery-img">
+                                        <a href="images/werbung_ubahn.jpg" data-image-popup=""><img src="images/werbung_ubahn.jpg" alt="portfolio-image"></a></div>
+                                    <figcaption>
+                                        <h3><a href="">Werbung</a></h3>
+                                        <p class="tv-light-white-text tv-letter-spacing-1">keine Verspätungen mehr mit Smouved</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-----------------End------------------------------------------->
+
+
+
+
+
+
+
+                <!--Testimonial-->
+                <section id="testimonial" class="tv-testimonial tv-slider-test section-tb-padd-100">
+                    <div class="owl-carousel owl-loaded owl-drag ">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 mx-auto">
+                                    <div class="tv-testimonial-slide-content text-center">
+
+                                        <div class="tv-testimonial-text">
+                                            <span class="tv-testimonial-author">Fabian Schlott</span>
+                                            <p>Ich selbst fahre jeden Tag zur Uni und habe erkannt, dass mir andere Anbieter nicht das geben, was wir mit Smouved erreichen wollen. Zeitersparnis ohne selber Hirnschmalz und Zeit in die Routenplanung zu stecken</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 mx-auto">
+                                    <div class="tv-testimonial-slide-content text-center">
+
+                                        <div class="tv-testimonial-text">
+                                            <span class="tv-testimonial-author">Lisa-Marie</span>
+                                            <p>Ich möchte mit Smouved Menschen eine Plattform zugeben, die es Pendlern ermöglicht mehr Zeit mit der Familie zuverbringen</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 mx-auto">
+                                    <div class="tv-testimonial-slide-content text-center">
+                                       <!-- <div class="tv-testimonial-image-holder">
+                                            <img src="images/test-1.jpg">
+                                        </div>-->
+                                        <div class="tv-testimonial-text">
+                                            <span class="tv-testimonial-author">Marcel Märdian</span>
+                                            <p>Mit Smouved möchte ich die Mobilität ganzheitlich betrachten, um optimale Transportangebote bereitstellen zu können</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <script>
+                        $('.tv-slider-test .owl-carousel').owlCarousel({
+                            loop: true,
+                            items: 1,
+                            margin: 0,
+                            nav: false,
+                            dots: true,
+                            autoplay: true,
+                            autoplayTimeout: 1000,
+                            autoplayHoverPause: true,
+                            autoplaySpeed: 1000,
+                            navSpeed: 1000,
+                            singleItem: true,
+                        });
+                    </script>
+                </section>
+                <!--End-->
+
+                <!--contact us-->
+              <!--  <section id="contact" class="contact-section section-tb-padd-100" style="background: #202020">
+                    <div class="container">
+                        <div class="tv-section-heading-box text-center">
+                            <div class="tv-heading-spacer">
+                                <span class="tv-heading-line"></span>
+                            </div>
+                            <h6 class="tv-section-head-slogan text-white">Schreiben sie uns gerne an</h6>
+                            <h2 class="tv-section-head-title text-white">Kontakt</h2>
+                        </div>
+
+                       <div class="contact-wrapper">
+                            <div class="contact-form">
+                                <form id="contact-form-1">
+                                    <div class="form-group row">
+                                        <div class="col-md-4 col-sm-12 tv-offspace-xs-bottom-20">
+                                            <input class="form-control placeholder-fix" id="Name" name="name" placeholder="Name" required="" type="text">
+                                        </div>
+                                        <div class="col-md-4 col-sm-12">
+                                            <input class="form-control placeholder-fix" id="Email" name="email" placeholder="Email" required="" type="email">
+                                        </div>
+                                        <div class="col-md-4 col-sm-12">
+                                            <input class="form-control placeholder-fix" id="Subject" name="subject" placeholder="Subject" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-sm-12">
+                                            <textarea class="form-control placeholder-fix" name="message" rows="3" placeholder="Your Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <p class="form-submit text-center tv-offspace-top-20 tv-offspace-botttom-0"><input name="submit" id="submit" class="btn btn-mod btn-orange  btn-large btn-round" value="submit message" type="submit"></p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+                <!--End--------->
+            </main>
+            <!---------------------End---------------------------------------->
+
+
+            <!--Footer-->
+            <footer>
+                <div class="primary-footer">
+                    <div class="container">
+                        <div class="row tv-footer-block">
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-footer-bottomspace">
+                                        <div class="tv-footer-title">Über uns</div>
+                                        <div class="tv-footer-content">
+                                            <p class="des">
+                                               Wir gestalten die Fortbewegung in deinem alltäglichen Leben angenehmer.
+                                            </p>
+                                            <div class="tv-social-follow">
+                                                <label>Kontaktiere uns:</label>
+                                                <ul class="link-follow">
+                                                    <li><a class="instagram fa fa-instagram" title="Instagram" href="www.instagram.com/smouved/"></a></li>
+                                                    <li><a class="mail fa fa-mail-forward" title="Mail" href="mailto:hello@smouved.de"></a></li>
+
+                                                </ul>
+                                            </div>																	 									 									 									 									
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondary-footer">
+                    <div class="container">
+                        <div class="footer-custom-text"><p>&copy; 2022 All right reserved. Designed by Smouved</p></div>
+                    </div>
+                </div>
+            </footer>
+            <!--End-->
         </div>
-        <div class="footer-bottom-wrapper">
-            <a href="/impressum.html" class="generic-anchor" rel="nofollow">Impressum</a>
-        </div>
-    </section>
-</footer>
+    </body>
 </html>
