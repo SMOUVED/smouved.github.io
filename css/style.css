@@ -30,7 +30,7 @@ html {
 body { 
     background-color: #fff;
     font-family: 'Nunito Sans', sans-serif;
-    color: #1c1b1b;
+    color: #212E52;
     font-size: 1.18rem;
     line-height: 1.4;
     position: relative;
@@ -106,7 +106,7 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0 0 10px 0;
 }
 p {
-    color: #555;
+    color: #212E52;
     font-size: 1.095rem;
     font-weight: 300;
     line-height: 140%;
@@ -156,7 +156,7 @@ header nav  a {
 .tv-heading-line {
     border-color: transparent #ccc transparent transparent;
     border-style: solid;
-    border-width: 1px;
+    border-width: 0.1px;
     display: block;
     height: 30px;
     margin: 0 auto;
@@ -281,7 +281,7 @@ img.tv-grayscale:hover {
     margin-bottom: 42px;
 }
 .tv-section-title {
-    color: #1c303c;
+    color: #212E52;
     font-size: 32px;
     font-weight: 700;
     line-height: 32px;
@@ -501,7 +501,7 @@ img.tv-grayscale:hover {
 }
 
 .portfolio-grid figure:hover .tv-gallery-img {
-    background-color: #000;
+    background-color: #212E52;
 }
 .portfolio-grid figure:hover img {
     cursor: url("../images/icon-zoom-white.png"), pointer;
@@ -538,7 +538,7 @@ img.tv-grayscale:hover {
     margin-bottom: 5px;
 }
 .tv-grid-4-col .tv-grid-gallery figcaption h3 a {
-    color: #191919;
+    color: #212E52;
     font-size: 15px;
     letter-spacing: 3px;
 }
@@ -596,7 +596,7 @@ img.tv-grayscale:hover {
 }
 
 /*cta*/
-.tv-bg-orange {
+.tv-bg-blue {
     background-color: #212E52;
 }
 .tv-bg-off-black {
@@ -676,12 +676,14 @@ img.tv-grayscale:hover {
 
 
 /*CONTACT FORM*/
+.contact-form .contact-wrapper{
+    background: #212E52;
+}
 .contact-form .form-group {
     margin-bottom: 10px;
 }
 .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
-    background: rgba(0, 0, 0, 0);
-    border: 1px solid #3c3b3b;
+    border: 2px solid #212E52;
     border-radius: 0;
 }
 .contact-form input[type="text"], .contact-form input[type="email"] {
@@ -719,7 +721,7 @@ img.tv-grayscale:hover {
     border-radius: 0;
     box-shadow: none;
     box-sizing: border-box;
-    color: #fff;
+    color: #212E52;
     font-size: 11px;
     font-weight: 400;
     height: auto;
@@ -748,8 +750,8 @@ img.tv-grayscale:hover {
     background: #333333 !important;
 }
 .btn-white {
-    border-color: #fff;
-    color: #fff;
+    border-color: lightgray;
+    color: lightgray;
 }
 .btn-cust {
     border-radius: 25px;
@@ -767,9 +769,9 @@ img.tv-grayscale:hover {
     margin-bottom: 0 !important;
 }
 .btn-white:hover {
-    background: #fff none repeat scroll 0 0;
+    background: #F3F3F3 none repeat scroll 0 0;
     border-color: #fff;
-    color: #333;
+    color: #FFFFFF;
 }
 
 /*testimonial*/
